@@ -10,10 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "3.22.0",
+    "@emotion/react": "11.14.0",
     "@mescius/spread-sheets": "18.1.4",
+    "@mescius/spread-sheets-barcode": "18.1.4",
     "@mescius/spread-sheets-charts": "18.1.4",
+    "@mescius/spread-sheets-designer": "18.1.4",
+    "@mescius/spread-sheets-designer-react": "18.1.4",
+    "@mescius/spread-sheets-designer-resources-ko": "18.1.4",
     "@mescius/spread-sheets-io": "18.1.4",
+    "@mescius/spread-sheets-languagepackages": "18.1.4",
+    "@mescius/spread-sheets-pdf": "18.1.4",
     "@mescius/spread-sheets-pivot-addon": "18.1.4",
+    "@mescius/spread-sheets-print": "18.1.4",
     "@mescius/spread-sheets-react": "18.1.4",
     "@mescius/spread-sheets-resources-ko": "18.1.4",
     "@mescius/spread-sheets-shapes": "18.1.4",
@@ -23,6 +32,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "7.7.0",
+    "typescript": "5.8.3",
     "vite": "6.3.5"
   },
   "devDependencies": {
@@ -30,9 +40,13 @@
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "10.4.21",
     "eslint": "^9.30.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
-    "globals": "^16.3.0"
+    "globals": "^16.3.0",
+    "postcss": "8.5.6",
+    "tailwindcss": "3.4.1",
+    "ts-node": "10.9.2"
   }
 }

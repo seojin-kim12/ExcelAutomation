@@ -1,17 +1,24 @@
-div.row {
-    width: 100%;
-    display: flex;
-    gap: 15px;
-  }
-  
-  div.left {
-    width: 70%;
-    float: left;
-    box-sizing: border-box;
-  }
-  
-  div.right {
-    width: 30%;
-    float: left;
-    box-sizing: border-box;
-  }
+.add-row-button {
+  background-image: url('/images/addRow.png');
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+
+.update-to-grid-button {
+  background-image: url('/images/update.png');
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+
+.work {
+  background-image: url('/images/work.png');
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
